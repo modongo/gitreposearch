@@ -1,3 +1,18 @@
+## Project Description
+   A web application where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories
+
+## Project Name :  
+   Git repo search
+
+## BDD
+
+| Behavior        | Input           | Outcome  |
+| ------------- |:-------------:| -----:|
+| User types a github username, fills the username| submit it | Name of person appears |
+| User types a github username, fills the username | Click repositories | description of the repos appears |
+| User types a github repos, fills the repo name  | submit it | description of the repos appears |
+
+
 # Gitreposearch
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
