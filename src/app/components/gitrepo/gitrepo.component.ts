@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Gitrepo } from '../../model/gitrepo';
-import { Gitsearch } from '../../model/gitsearch';
+import { GitsearchComponent } from '../../components/gitsearch/gitsearch.component';
 import { GitsearchService } from '../../services/gitsearch.service';
 
 @Component({
