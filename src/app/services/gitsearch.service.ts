@@ -32,6 +32,7 @@ export class GitsearchService {
       bio: string;
     }
 
+    // use promises
     const promise = new Promise((resolve) => {
 // tslint:disable-next-line: max-line-length
       this.http.get<ApiResponse>('https://api.github.com/users/' + searchName + '?access_token=' + environment.myApi).toPromise().then(getResponse => {
@@ -44,6 +45,7 @@ export class GitsearchService {
         this.users.created_at = getResponse.created_at;
         this.users.followers = getResponse.followers;
         this.users.following = getResponse.following;
+
         resolve();
       });
     });
