@@ -15,7 +15,7 @@ export class GitsearchService {
 
   constructor(private http: HttpClient) {
     this.repository = new Gitrepo('', '', '', new Date());
-    this.users = new User('', '', '', 0, '', new Date(), 0, 0);
+    this.users = new User('', '','', 0, '','', new Date(), 0, 0);
   }
 
   githubUser(searchName) {
@@ -29,6 +29,7 @@ export class GitsearchService {
       followers: number;
       following: number;
       avatar_url: string;
+      bio: string;
     }
 
     const promise = new Promise((resolve) => {
@@ -37,6 +38,7 @@ export class GitsearchService {
         this.users.name = getResponse.name;
         this.users.html_url = getResponse.html_url;
         this.users.login = getResponse.login;
+        this.users.bio = getResponse.bio;
         this.users.avatar_url = getResponse.avatar_url;
         this.users.public_repos = getResponse.public_repos;
         this.users.created_at = getResponse.created_at;

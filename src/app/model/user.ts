@@ -7,6 +7,7 @@ export class User {
               public public_repos: number,
 // tslint:disable-next-line: variable-name
               public html_url: string,
+              public bio: string,
 // tslint:disable-next-line: variable-name
               public created_at: Date,
               public followers: number, public following: number) {
