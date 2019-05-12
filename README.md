@@ -11,10 +11,14 @@
    https://modongo.github.io/gitreposearch/
 
 ## Technologies Used
-    HTML
-    CSS
-    BOOTSTRAP
-    Angular js
+    HTML , CSS,BOOTSTRAP, Angular js
+
+## Features
+
+1. Uses the Github API to perform searches on Github, and display the results to the users.
+2. Users page searches for user profile strictly using the user name.
+3. Repositories page searches for repositories strictly using the repository name.
+4. Repository page loads 10  searches and one can click `load more` to view more pages.
 
 ## BDD
 
