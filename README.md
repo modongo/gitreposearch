@@ -1,5 +1,4 @@
-## Project Name :  
-   Git repo search. 
+## Project Name :  Git repo search. 
    This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
 ## Project Description
