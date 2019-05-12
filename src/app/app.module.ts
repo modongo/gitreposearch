@@ -14,6 +14,7 @@ import { PipePipe } from './pipes/pipe.pipe';
 import { RoutingModule } from './routing/routing.module';
 import { GitrepoComponent } from './components/gitrepo/gitrepo.component';
 import { GitsearchService } from './services/gitsearch.service';
+import { HighlightDirective } from './directives/highlight.directive';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { GitsearchService } from './services/gitsearch.service';
     GitrepoformComponent,
     NavbarComponent,
     PipePipe,
-    GitrepoComponent
+    GitrepoComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
