@@ -1,10 +1,8 @@
 <br>
-<form (ngSubmit)="searchFor(myForm)" #myForm="ngForm"
-class="form-inline my-2 my-lg-0">
-<div class="form-group">
-<input class="form-control mr-sm-4" type="search" name="find" placeholder="Enter Git username" aria-label="Search"
-  [(ngModel)]="searchInfo.find"  #find='ngModel'>
-  <button class="btn btn-outline-secondary my-2 my-sm-0 " type="submit">Search</button>
-</div>
+<form (ngSubmit)="searchFor(myForm)" #myForm="ngForm" class="form-inline my-2 my-lg-0">
+  <div class="form-group">
+    <input class="form-control mr-sm-4" type="search" name="find" placeholder="Enter Git username" aria-label="Search"
+      [(ngModel)]="searchInfo.find" #find='ngModel'>
+    <button class="btn btn-outline-secondary my-2 my-sm-0 " type="submit">Search</button>
+  </div>
 </form>
-
