@@ -8,7 +8,7 @@
 ## Author
    Michael Odongo
 
-## Live Page
+## Live Site Link 
    https://modongo.github.io/gitreposearch/
 
 ## Technologies Used
