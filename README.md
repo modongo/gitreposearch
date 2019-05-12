@@ -26,9 +26,8 @@
 | User types a github repos, fills the repo name  | submit it | description of the repos appears |
 
 
-# Gitreposearch
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+## Support and contact details
+Contact me on +254729379639 or on my github account https://github.com/modongo
 
 ## Development server
 
