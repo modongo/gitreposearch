@@ -11,11 +11,10 @@
    Git repo search
 
 ## Technologies Used
-HTML
-
-BOOTSTRAP
-
-Angular js
+    HTML
+    CSS
+    BOOTSTRAP
+    Angular js
 
 ## BDD
 
