@@ -10,6 +10,13 @@
 ## Project Name :  
    Git repo search
 
+## Technologies Used
+HTML
+
+BOOTSTRAP
+
+Angular js
+
 ## BDD
 
 | Behavior        | Input           | Outcome  |
